@@ -1,0 +1,7 @@
+version: "3"
+services:
+  c_compiler:
+    build: .
+    volumes:
+      - ./9cc:/home/user/9cc
+    tty: true
